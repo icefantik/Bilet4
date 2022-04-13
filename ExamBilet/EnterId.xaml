@@ -5,8 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ExamBilet"
         mc:Ignorable="d"
-        Title="EnterId" Height="219.661" Width="499.492">
+        Title="EnterId" Height="195.254" Width="440">
     <Grid>
-
+        <Grid.ColumnDefinitions>
+            <!-- Разбиение на ширину -->
+            <ColumnDefinition Width="78*"/>
+            <ColumnDefinition Width="138*"/>
+            <ColumnDefinition Width="143*"/>
+            <ColumnDefinition Width="73*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <!-- Разбиение на длины -->
+            <RowDefinition Height="34*"/>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="33*"/>
+        </Grid.RowDefinitions>
+        <TextBox x:Name="id" Grid.Row="1" Grid.Column="1"/>
+        <Button Grid.Row="1" Grid.Column="2" Click="ClickDeleteOnId">Удалить</Button>
     </Grid>
 </Window>

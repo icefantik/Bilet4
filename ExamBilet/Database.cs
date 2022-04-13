@@ -36,7 +36,14 @@ namespace ExamBilet
             DataTable dataTable = new DataTable();
             SqlCommand command = new SqlCommand(query, database.getConnection());
             sqlDataAdapter.SelectCommand = command;
-            sqlDataAdapter.Fill(dataTable);
+            try
+            {
+                sqlDataAdapter.Fill(dataTable);
+            }
+            catch (SqlException sqlEx)
+            {
+
+            }
             return dataTable;
         }
         public static List<SumPlanDate> GetListSumPlan()
@@ -78,10 +85,11 @@ namespace ExamBilet
                 orderFurnt.id = int.Parse(dataTable.Rows[i][0].ToString());
                 orderFurnt.DeliveryDetal = dataTable.Rows[i][1].ToString();
                 orderFurnt.Specification = dataTable.Rows[i][2].ToString();
-                orderFurnt.TypeFurniture = dataTable.Rows[i][0].ToString();
+                orderFurnt.TypeFurniture = dataTable.Rows[i][3].ToString();
                 orderFurnt.FurnityreName = dataTable.Rows[i][4].ToString();
                 orderFurnt.Price = int.Parse(dataTable.Rows[i][5].ToString());
                 orderFurnt.DeliveryDate = dataTable.Rows[i][6].ToString();
+                orderFurnt.DeadlineDate = dataTable.Rows[i][7].ToString();
                 orders.Add(orderFurnt);
             }
             return orders;

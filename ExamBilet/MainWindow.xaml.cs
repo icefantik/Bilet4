@@ -25,7 +25,7 @@ namespace ExamBilet
         public MainWindow()
         {
             InitializeComponent();
-            table.ItemsSource = Database.GetListOrderFurnt();
+            FillTable();
         }
 
         private void ClickBackorders(object sender, RoutedEventArgs e)
@@ -45,7 +45,20 @@ namespace ExamBilet
         }
         private void ClickDelete(object sender, RoutedEventArgs e)
         {
+            EnterId enterId = new EnterId();
+            enterId.Show();
+        }
+        private void ClickEdit(object sender, RoutedEventArgs e)
+        {
 
+        }
+        private void UpdateTable(object sender, RoutedEventArgs e)
+        {
+            FillTable();
+        }
+        private void FillTable()
+        {
+            table.ItemsSource = Database.GetListOrderFurnt();
         }
     }
 }

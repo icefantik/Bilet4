@@ -15,7 +15,6 @@
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <!-- Разбиение на длины -->
-
             <RowDefinition Height="50*"/>
             <RowDefinition Height="50*"/>
             <RowDefinition Height="50*"/>
@@ -23,11 +22,13 @@
             <RowDefinition Height="50*"/>
         </Grid.RowDefinitions>
         <DataGrid x:Name="table" IsReadOnly="True" AutoGenerateColumns="True" Grid.Column="0" Grid.Row="0" Grid.RowSpan="4" Grid.ColumnSpan="2" Background="#FFFFFF" ItemsSource="{DynamicResource ResourceKey=OrderFurnt}"/>
-        <Button Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="1" Click="ClickBackorders" FontSize="17" Background="#FFFFFF">Невыполненые заказы</Button>
+        <Button Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="1" Click="ClickBackorders" FontSize="17" Background="#FFFFFF">Виды мебели с наибольшим числом не выполненых заявок</Button>
         <Button Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="1" Click="ClickOpenSumRequests" FontSize="17" Background="#FFFFFF">Сумма заявок по плановым датам</Button>
 
         <Button Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="1" Click="ClickAdd" FontSize="17" Background="#FFFFFF">Добавить</Button>
         <Button Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="1" Click="ClickDelete" FontSize="17" Background="#FFFFFF">Удалить</Button>
-        <Button Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="1" Click="ClickDelete" FontSize="17" Background="#FFFFFF">Изменить</Button>
+        <Button Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="1" Click="ClickEdit" FontSize="17" Background="#FFFFFF">Изменить</Button>
+
+        <Button Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="1" Click="UpdateTable" FontSize="17" Background="#FFFFFF">Обновить таблицу</Button>
     </Grid>
 </Window>

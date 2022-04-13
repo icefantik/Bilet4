@@ -61,3 +61,5 @@ C:\Users\Peter\Desktop\Bilet4Etс\ExamBilet\obj\Debug\ExamBilet.exe
 C:\Users\Peter\Desktop\Bilet4Etс\ExamBilet\obj\Debug\ExamBilet.pdb
 C:\Users\Peter\Desktop\Bilet4Etс\ExamBilet\obj\Debug\LargestNumberOutstandApp.g.cs
 C:\Users\Peter\Desktop\Bilet4Etс\ExamBilet\obj\Debug\LargestNumberOutstandApp.baml
+C:\Users\Peter\Desktop\Bilet4Etс\ExamBilet\obj\Debug\EnterId.g.cs
+C:\Users\Peter\Desktop\Bilet4Etс\ExamBilet\obj\Debug\EnterId.baml

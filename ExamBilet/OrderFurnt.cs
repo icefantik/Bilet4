@@ -15,5 +15,6 @@ namespace ExamBilet
         public string FurnityreName { get; set; }
         public int Price { get; set; }
         public string DeliveryDate { get; set; }
+        public string DeadlineDate { get; set; }
     }
 }

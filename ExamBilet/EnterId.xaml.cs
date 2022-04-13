@@ -23,5 +23,10 @@ namespace ExamBilet
         {
             InitializeComponent();
         }
+        private void ClickDeleteOnId(object sender, RoutedEventArgs e)
+        {
+            Database.RunQuery($"exec DelOnIdOrder @enterid={id.Text}");
+            this.Hide();
+        }
     }
 }
