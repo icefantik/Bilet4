@@ -15,17 +15,17 @@ using System.Windows.Shapes;
 namespace ExamBilet
 {
     /// <summary>
-    /// Логика взаимодействия для EnterId.xaml
+    /// Логика взаимодействия для EditSpecification.xaml
     /// </summary>
-    public partial class EnterId : Window
+    public partial class EditSpecification : Window
     {
-        public EnterId()
+        public EditSpecification()
         {
             InitializeComponent();
         }
-        private void ClickDeleteOnId(object sender, RoutedEventArgs e)
+        private void ClickEdit(object sender, RoutedEventArgs e)
         {
-            Database.RunQuery($"exec DelOnIdSpecification @enterid={id.Text}");
+            Database.RunQuery($"exec EditSpecification @enterid = {id.Text}, @entername = \'{name.Text}\'");
             this.Hide();
         }
     }

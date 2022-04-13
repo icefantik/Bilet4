@@ -65,6 +65,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AddSpecification.xaml.cs">
+      <DependentUpon>AddSpecification.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EditSpecification.xaml.cs">
+      <DependentUpon>EditSpecification.xaml</DependentUpon>
+    </Compile>
     <Compile Include="EnterId.xaml.cs">
       <DependentUpon>EnterId.xaml</DependentUpon>
     </Compile>
@@ -76,6 +82,14 @@
     <Compile Include="SumRequestsPlanDates.xaml.cs">
       <DependentUpon>SumRequestsPlanDates.xaml</DependentUpon>
     </Compile>
+    <Page Include="AddSpecification.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EditSpecification.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="EnterId.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

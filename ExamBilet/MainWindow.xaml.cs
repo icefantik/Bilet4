@@ -41,7 +41,8 @@ namespace ExamBilet
         }
         private void ClickAdd(object sender, RoutedEventArgs e)
         {
-            
+            AddSpecification addSpecification = new AddSpecification();
+            addSpecification.Show();
         }
         private void ClickDelete(object sender, RoutedEventArgs e)
         {
@@ -50,7 +51,8 @@ namespace ExamBilet
         }
         private void ClickEdit(object sender, RoutedEventArgs e)
         {
-
+            EditSpecification editSpecification = new EditSpecification();
+            editSpecification.Show();
         }
         private void UpdateTable(object sender, RoutedEventArgs e)
         {

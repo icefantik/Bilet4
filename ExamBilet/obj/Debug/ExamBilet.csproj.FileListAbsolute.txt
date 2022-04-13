@@ -63,3 +63,7 @@ C:\Users\Peter\Desktop\Bilet4Etс\ExamBilet\obj\Debug\LargestNumberOutstandApp.g
 C:\Users\Peter\Desktop\Bilet4Etс\ExamBilet\obj\Debug\LargestNumberOutstandApp.baml
 C:\Users\Peter\Desktop\Bilet4Etс\ExamBilet\obj\Debug\EnterId.g.cs
 C:\Users\Peter\Desktop\Bilet4Etс\ExamBilet\obj\Debug\EnterId.baml
+C:\Users\Peter\Desktop\Bilet4Etс\ExamBilet\obj\Debug\AddSpecification.g.cs
+C:\Users\Peter\Desktop\Bilet4Etс\ExamBilet\obj\Debug\EditSpecification.g.cs
+C:\Users\Peter\Desktop\Bilet4Etс\ExamBilet\obj\Debug\AddSpecification.baml
+C:\Users\Peter\Desktop\Bilet4Etс\ExamBilet\obj\Debug\EditSpecification.baml
