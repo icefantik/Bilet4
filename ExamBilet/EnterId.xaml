@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ExamBilet"
         mc:Ignorable="d"
-        Title="EnterId" Height="195.254" Width="440">
+        Title="Удаление спецификации" Height="195.254" Width="440">
     <Grid>
         <Grid.ColumnDefinitions>
             <!-- Разбиение на ширину -->

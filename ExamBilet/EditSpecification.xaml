@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ExamBilet"
         mc:Ignorable="d"
-        Title="EditSpecification" Height="150" Width="400">
+        Title="Изменение спецификации" Height="150" Width="400">
     <Grid>
         <Grid.ColumnDefinitions>
             <!-- Разбиение на ширину -->
